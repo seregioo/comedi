@@ -158,6 +158,7 @@ usb_modules= \
  usbduxfast.ko \
  usbduxsigma.ko \
  dt9812.ko \
+ ni_usb6009.ko \
  vmk80xx.ko
 else
 usb_modules=
@@ -310,6 +311,7 @@ dt2817_ko_SOURCES = dt2817.c
 dt282x_ko_SOURCES = dt282x.c
 dt3000_ko_SOURCES = dt3000.c
 dt9812_ko_SOURCES = dt9812.c
+ni_usb6009_ko_SOURCES = ni_usb6009.c
 fl512_ko_SOURCES = fl512.c
 gsc_hpdi_ko_SOURCES = gsc_hpdi.c
 ii_pci20kc_ko_SOURCES = ii_pci20kc.c
